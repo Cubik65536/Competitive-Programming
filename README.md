@@ -19,6 +19,54 @@
 
 ---
 
+## 🗃️ Commit Message Format
+
+### For USACO
+
+``` text
+[<TYPE>][USACO] <CONTEST> <LEVEL> "<PROBLEM>"
+
+Result: <RESULT>
+```
+
+* `<TYPE>`: The type of the commit. Can be one of the following:
+  * `ADD`: Add a new solution.
+  * `FIX`: Fix a bug in an existing solution.
+  * `DEL`: Delete an existing solution.
+* `<CONTEST>`: The contest season, e.g. `2022-JAN`, `2022-US_OPEN`, etc.
+* `<LEVEL>`: The level of the problem, e.g. `Bronze`, `Silver`, `Gold`, etc.
+* `<PROBLEM>` *(Optional)*: The problem name, e.g. `Problem 1. Visits`.
+* `<RESULT>`: The result of the solution, e.g. `WA #5`, `TLE #11`, etc.
+
+> **Note**: `<RESULT>` line will be skipped if
+>
+> * the solution have been accepted (AC for all test cases)
+> * `<TYPE>` is `DEL`
+> * `<PROBLEM>` is not specified
+
+### For CCC
+
+``` text
+[<TYPE>][CCC] <CONTEST>-<LEVEL> "<PROBLEM>"
+
+Result: <RESULT>
+```
+
+* `<TYPE>`: The type of the commit. Can be one of the following:
+  * `ADD`: Add a new solution.
+  * `FIX`: Fix a bug in an existing solution.
+  * `DEL`: Delete an existing solution.
+* `<CONTEST>`: The contest season, e.g. `2022`, `2021`, etc.
+* `<LEVEL>`: The level of the problem: `JUNIOR` or `SENIOR`.
+* `<PROBLEM>` *(Optional)*: The problem name, e.g. `Problem 5. CCC Word Hunt`.
+* `<RESULT>`: The result of the solution, e.g. `WA Subtask 1 Test 5`, `TLE Subtask 4 Test 18`, etc.
+
+> **Note**: `<RESULT>` line will be skipped if
+>
+> * the solution have been accepted (AC for all test cases)
+> * `<TYPE>` is `DEL`
+> * `<PROBLEM>` is not specified
+
 ## 📜 License
 
 Different content in this repository is licensed under different licenses according to the different types of content.
