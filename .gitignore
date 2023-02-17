@@ -1,0 +1,15 @@
+# macOS File System
+.DS_Store
+
+# Visual Studio Code
+.vscode
+
+# Input and Output Files
+*.in
+*.out
+
+# C++ Binaries
+Main
+
+# Java Binaries
+*.class
