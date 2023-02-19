@@ -1,0 +1,1 @@
+For this problem, all we have to do is add the "heat unit" to the result according to the name of the pepper (BTW, we can check it by only tooking at the first character of the name) and print the result.
