@@ -13,3 +13,6 @@ Main
 
 # Java Binaries
 *.class
+
+# Current Contest
+CCC/2024/
